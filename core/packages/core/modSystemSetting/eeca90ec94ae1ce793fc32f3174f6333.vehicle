@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '21c2b7f314ed4ad522100847c6d0ec21',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'eeca90ec94ae1ce793fc32f3174f6333',
+  'native_key' => 'default_content_type',
+  'object' => '{"key":"default_content_type","value":"1","xtype":"modx-combo-content-type","namespace":"core","area":"site","editedon":null}',
+);

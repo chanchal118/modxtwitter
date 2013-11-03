@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'namespace',
+    1 => 'controller',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '00b5096d01089db57ea53d1c51326774',
+  'package' => 'modx',
+  'class' => 'modAction',
+  'signature' => 'a270933f81bb84b5511652ce03105935',
+  'native_key' => 82,
+  'object' => '{"id":82,"namespace":"core","controller":"workspaces\\/package\\/view","haslayout":1,"lang_topics":"workspace,namespace","assets":"","help_url":"Package+Management"}',
+);

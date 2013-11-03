@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c9d5216ee99a4c48c79371a809c057fd',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '9027d3888b61d037706b05fdd1050e76',
+  'native_key' => 'phpthumb_error_fontsize',
+  'object' => '{"key":"phpthumb_error_fontsize","value":1,"xtype":"textfield","namespace":"core","area":"phpthumb","editedon":null}',
+);

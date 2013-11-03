@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ccfb783c04c357e2e25bab1eda5ef5c9',
+  'package' => 'modx',
+  'class' => 'modAccessPolicy',
+  'signature' => 'd2f5ab386288f74013d0ad2589e33503',
+  'native_key' => 8,
+  'object' => '{"id":8,"name":"Media Source Admin","description":"Media Source administration policy.","parent":0,"template":0,"class":"","data":"{\\"create\\":true,\\"copy\\":true,\\"load\\":true,\\"list\\":true,\\"save\\":true,\\"remove\\":true,\\"view\\":true}","lexicon":"permissions"}',
+);

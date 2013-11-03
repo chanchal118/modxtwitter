@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5ae79a81eb0365aec75c9140384c1948',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '279b3c83c4e18d73ceddc8e10859ad7a',
+  'native_key' => 'feed_modx_security',
+  'object' => '{"key":"feed_modx_security","value":"http:\\/\\/feeds.feedburner.com\\/modxsecurity","xtype":"textfield","namespace":"core","area":"system","editedon":null}',
+);

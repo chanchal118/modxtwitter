@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'namespace',
+    1 => 'controller',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a2834d40bcadd9b210e0fc1c25eeb3ee',
+  'package' => 'modx',
+  'class' => 'modAction',
+  'signature' => '69086e18b3ebb57800750b84f5eb8f73',
+  'native_key' => 31,
+  'object' => '{"id":31,"namespace":"core","controller":"element\\/template\\/tvsort","haslayout":1,"lang_topics":"template,tv,propertyset,element","assets":"","help_url":""}',
+);

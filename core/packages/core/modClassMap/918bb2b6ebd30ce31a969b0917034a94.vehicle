@@ -1,0 +1,13 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 'class',
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '005ddb9f8b2483283b62ecde6e06d233',
+  'package' => 'modx',
+  'class' => 'modClassMap',
+  'signature' => '918bb2b6ebd30ce31a969b0917034a94',
+  'native_key' => NULL,
+  'object' => '{"id":null,"class":"modDocument","parent_class":"modResource","name_field":"pagetitle","path":"","lexicon":"core:resource"}',
+);

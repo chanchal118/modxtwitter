@@ -1,0 +1,15 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'core/xPDOFileVehicle/0fe162419a98fb4012222b0cc0db2a22/',
+    'target' => 'return MODX_CONNECTORS_PATH;',
+    'name' => 'workspace',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'vehicle_package' => 'transport',
+  'guid' => '21a92714ccf1c119683008b3921dfef5',
+  'package' => '',
+  'signature' => '0fe162419a98fb4012222b0cc0db2a22',
+  'native_key' => '21a92714ccf1c119683008b3921dfef5',
+);

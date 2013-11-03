@@ -1,0 +1,591 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Children' => 
+    array (
+      'ae9f36f01c1d40f650f12d24027d6302' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '5f48093e9e6bd5118bd975dc75b51107' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":68,"namespace":"core","controller":"workspaces","haslayout":1,"lang_topics":"workspace","assets":"","help_url":"Package+Management"}',
+              'guid' => 'd8236daedb9dc0d1091725a1812d1924',
+              'native_key' => 68,
+              'signature' => 'c86734189b2d0c50aae1c8f1704fee3f',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"manage_workspaces","parent":"system","action":68,"description":"manage_workspaces_desc","icon":"images\\/icons\\/sysinfo.gif","menuindex":0,"params":"","handler":"","permissions":"packages"}',
+        'guid' => 'a3a2cf436a3f59f18636a64740dcc1a6',
+        'native_key' => 'manage_workspaces',
+        'signature' => 'ba340ad7cc42b461c85b16428082305c',
+      ),
+      'ac4585a207fb3759309e7eb6c2907183' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '3cf5aed3df865d0ba7b4ac8c46135bb0' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":30,"namespace":"core","controller":"system\\/settings","haslayout":1,"lang_topics":"setting","assets":"","help_url":"Settings"}',
+              'guid' => '12f5786b67af204097cf793850bdea62',
+              'native_key' => 30,
+              'signature' => '5f89d478539197f11491aad4d3600f15',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"system_settings","parent":"system","action":30,"description":"system_settings_desc","icon":"images\\/icons\\/sysinfo.gif","menuindex":1,"params":"","handler":"","permissions":"settings"}',
+        'guid' => '4d46f02ce041db67332a0d54a8371bff',
+        'native_key' => 'system_settings',
+        'signature' => '9c5365caab78f87f714ea4d48274cd58',
+      ),
+      'a8e2e3b0477af194ed25241706840841' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            'e5b21c98865ae42a9ca6eec7464caeb1' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":73,"namespace":"core","controller":"workspaces\\/lexicon","haslayout":1,"lang_topics":"package_builder,lexicon,namespace","assets":"","help_url":"Internationalization"}',
+              'guid' => 'e3797dce4be08d7608dbf785bf2963c6',
+              'native_key' => 73,
+              'signature' => '7b393fc42da5555536a247960470d213',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"lexicon_management","parent":"system","action":73,"description":"lexicon_management_desc","icon":"images\\/icons\\/logging.gif","menuindex":2,"params":"","handler":"","permissions":"lexicons"}',
+        'guid' => 'c5d037bcb641643f8d51ffadf96b104b',
+        'native_key' => 'lexicon_management',
+        'signature' => 'bb05dcf2b5e63abf49483b38c55964f9',
+      ),
+      '8db8a325d12efae7156c6604366a6149' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '15122ff9eb70c2b8fe38e718ffc89783' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":69,"namespace":"core","controller":"system\\/contenttype","haslayout":1,"lang_topics":"content_type","assets":"","help_url":"Content+Types"}',
+              'guid' => '1fce9e9ee162704c0b39369b46fa4e04',
+              'native_key' => 69,
+              'signature' => '8acb46eca0448eac65608c724129f2f8',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"content_types","parent":"system","action":69,"description":"content_types_desc","icon":"images\\/icons\\/logging.gif","menuindex":3,"params":"","handler":"","permissions":"content_types"}',
+        'guid' => 'ff7700e3b6622878aa8cf6dfe50d80b0',
+        'native_key' => 'content_types',
+        'signature' => '492b6285b023f1d3450a3583e4d8c2bf',
+      ),
+      '52538b11c9cb407c7cc85b3bf536c0f2' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '516c9d1943fe5e709aded08a8c9891d6' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":6,"namespace":"core","controller":"context","haslayout":1,"lang_topics":"context","assets":"","help_url":"Contexts"}',
+              'guid' => '51e2ab55eb0e9bb99483f9c2e73d3721',
+              'native_key' => 6,
+              'signature' => '559ff94b459fc4ce05c72b1d5cdc09c1',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"contexts","parent":"system","action":6,"description":"contexts_desc","icon":"images\\/icons\\/sysinfo.gif","menuindex":4,"params":"","handler":"","permissions":"view_context"}',
+        'guid' => '56a1fafb8ada1399658257674e9f45ab',
+        'native_key' => 'contexts',
+        'signature' => '48f4e9140c6bf11dba0fe5d4d63561de',
+      ),
+      'f899c3974a63a2c491ea0ee38dd2b45f' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            'b91625146b9e56b3b98ab452519f1ef2' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":2,"namespace":"core","controller":"system\\/action","haslayout":1,"lang_topics":"action,menu,namespace","assets":"","help_url":"Actions+and+Menus"}',
+              'guid' => 'a0490f1ed1d1305fd8eed6d144d36e69',
+              'native_key' => 2,
+              'signature' => '4b17111cf7427c433bdb2a52b69dab67',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"edit_menu","parent":"system","action":2,"description":"edit_menu_desc","icon":"images\\/icons\\/sysinfo.gif","menuindex":5,"params":"","handler":"","permissions":"menus,actions"}',
+        'guid' => '157749f573f4d0be3e91e8959256d650',
+        'native_key' => 'edit_menu',
+        'signature' => '41fde293cf0f93ae7ddc1f44ada0593b',
+      ),
+      '97b1ad79923967842f0ff7c859c52d0e' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            'f6e1099a0577d111e3862a8d4a4af6c9' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":48,"namespace":"core","controller":"workspaces\\/namespace","haslayout":1,"lang_topics":"workspace,package_builder,lexicon,namespace","assets":"","help_url":"Namespaces"}',
+              'guid' => '4aeb11c87363534811dd6f238ac23024',
+              'native_key' => 48,
+              'signature' => '4296a35af28191edad03f4375a2c79f0',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"namespaces","parent":"system","action":48,"description":"namespaces_desc","icon":"","menuindex":6,"params":"","handler":"","permissions":"namespaces"}',
+        'guid' => '58db6943ea606fc651221ed393e7aefa',
+        'native_key' => 'namespaces',
+        'signature' => '289df28223f3ea11a695fe8ffd0b3445',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Children' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+        ),
+      ),
+    ),
+    'Children' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 'text',
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Action' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+          'related_objects' => true,
+          'related_object_attributes' => 
+          array (
+            'Children' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e7083150330e1bda7cc3b9010d7a5a79',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '0dbaf78d4f2e227d6dda1e4e81685dc2',
+  'native_key' => 'system',
+  'object' => '{"text":"system","parent":"","action":0,"description":"","icon":"images\\/misc\\/logo_tbar.gif","menuindex":6,"params":"","handler":"","permissions":"menu_system"}',
+);

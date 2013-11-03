@@ -6,7 +6,7 @@ if (!empty($_GET['oauth_verifier']) && !empty($_SESSION['oauth_token']) && !empt
 
     // We've got everything we need
     // TwitterOAuth instance, with two new parameters we got in twitter_login.php
-    $twitteroauth = new TwitterOAuth('D9KtoR8KjwH8NxRrTnowQ', 'bx9FGIl0xXuf9m29W3Oeo1uEiumepKnt0tBUxlHQYDQ', $_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
+    $twitteroauth = new TwitterOAuth(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, $_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
 // Let's request the access token
     $access_token = $twitteroauth->getAccessToken($_GET['oauth_verifier']);
 

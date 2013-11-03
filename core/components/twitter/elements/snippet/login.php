@@ -3,10 +3,10 @@ require(MODX_CORE_PATH. "components/library/abraham-twitter/twitteroauth/twitter
 session_start();
 
 // The TwitterOAuth instance
-$twitteroauth = new TwitterOAuth('D9KtoR8KjwH8NxRrTnowQ', 'bx9FGIl0xXuf9m29W3Oeo1uEiumepKnt0tBUxlHQYDQ');
+$twitteroauth = new TwitterOAuth(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET);
 
 // Requesting authentication tokens, the parameter is the URL we will be redirected to
-$request_token = $twitteroauth->getRequestToken('http://modxtwitter.com/oauth');
+$request_token = $twitteroauth->getRequestToken(MODX_SITE_URL. 'oauth');
 
 
 // Saving them into the session

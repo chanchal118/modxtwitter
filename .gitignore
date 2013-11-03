@@ -1,0 +1,4 @@
+.idea
+core/config/config.inc.php
+core/cache
+config.core.php

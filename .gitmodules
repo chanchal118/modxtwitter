@@ -1,3 +1,6 @@
 [submodule "core/components/library/twitter-app"]
 	path = core/components/library/twitter-app
 	url = https://github.com/J7mbo/twitter-api-php
+[submodule "core/components/library/abraham-twitter"]
+	path = core/components/library/abraham-twitter
+	url = https://github.com/abraham/twitteroauth

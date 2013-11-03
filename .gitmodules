@@ -1,0 +1,3 @@
+[submodule "core/components/library/twitter-app"]
+	path = core/components/library/twitter-app
+	url = https://github.com/J7mbo/twitter-api-php

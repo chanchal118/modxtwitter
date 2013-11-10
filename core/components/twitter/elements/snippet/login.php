@@ -1,13 +1,14 @@
 <?php
-require(MODX_CORE_PATH. "components/library/abraham-twitter/twitteroauth/twitteroauth.php");
+require_once MODX_CORE_PATH . "components/library/abraham-twitter/twitteroauth/twitteroauth.php";
+require_once MODX_CORE_PATH . "components/twitter/config/config.twitter.php";
+
 session_start();
 
 // The TwitterOAuth instance
 $twitteroauth = new TwitterOAuth(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET);
 
-// Requesting authentication tokens, the parameter is the URL we will be redirected to
-$request_token = $twitteroauth->getRequestToken(MODX_SITE_URL. 'oauth');
-
+// Requesting authentication tokens (temporary), the parameter is the URL we will be redirected to
+$request_token = $twitteroauth->getRequestToken(OAUTH_CALLBACK);
 
 // Saving them into the session
 $_SESSION['oauth_token'] = $request_token['oauth_token'];

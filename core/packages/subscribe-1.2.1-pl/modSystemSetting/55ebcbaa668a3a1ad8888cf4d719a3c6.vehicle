@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1da6bdc8c64a2a2de7c72f1f2b886c37',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '55ebcbaa668a3a1ad8888cf4d719a3c6',
+  'native_key' => 'groupListTpl',
+  'object' => '{"key":"groupListTpl","value":"sbsGroupListTpl","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":8}',
+);

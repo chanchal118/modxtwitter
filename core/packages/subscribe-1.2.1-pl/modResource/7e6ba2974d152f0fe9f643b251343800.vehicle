@@ -1,0 +1,26 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 'pagetitle',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'ContentType' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd720b3a4daa95cb1c2dc89ed957ffa12',
+  'package' => 'modx',
+  'class' => 'modResource',
+  'signature' => '7e6ba2974d152f0fe9f643b251343800',
+  'native_key' => 7,
+  'object' => '{"id":7,"type":"document","contentType":"text\\/html","pagetitle":"Unsubscribe","longtitle":"","description":"","alias":"unsubscribe","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":0,"introtext":"","content":"[[!Unsubscribe]]","richtext":0,"template":0,"menuindex":5,"searchable":0,"cacheable":1,"createdby":1,"createdon":0,"editedby":1,"editedon":0,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":1,"uri":null,"uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":""}',
+);

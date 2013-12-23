@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4767fd9adb0902a3a542d9a38edb9b66',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1be2761405b0e00ce206360da82749f7',
+  'native_key' => 'sbsJsPath',
+  'object' => '{"key":"sbsJsPath","value":"{assets_url}components\\/subscribe\\/js\\/","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":18}',
+);

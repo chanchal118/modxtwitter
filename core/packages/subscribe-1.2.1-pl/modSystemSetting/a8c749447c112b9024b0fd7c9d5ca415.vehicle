@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '282e47e8068163aeb7030a647c91f258',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a8c749447c112b9024b0fd7c9d5ca415',
+  'native_key' => 'sbs_use_comment_field',
+  'object' => '{"key":"sbs_use_comment_field","value":"1","xtype":"combo-boolean","namespace":"subscribe","area":"subscribe","editedon":null,"id":20}',
+);

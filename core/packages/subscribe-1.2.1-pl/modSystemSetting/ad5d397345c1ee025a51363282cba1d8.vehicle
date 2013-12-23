@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '612f03beec130b8382a9e5bdf6026fcc',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'ad5d397345c1ee025a51363282cba1d8',
+  'native_key' => 'privacyDialogTpl',
+  'object' => '{"key":"privacyDialogTpl","value":"sbsPrivacyDialogTpl","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":14}',
+);

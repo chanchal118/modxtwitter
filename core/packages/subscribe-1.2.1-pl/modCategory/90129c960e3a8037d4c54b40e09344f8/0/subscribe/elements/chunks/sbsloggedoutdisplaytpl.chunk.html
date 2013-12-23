@@ -1,0 +1,35 @@
+<script type="text/javascript">
+/* <![CDATA[ */
+    function sbs_toggle(id) {
+       var e = document.getElementById(id);
+    /* close the other div */
+    var t;
+    if (id == 'why-dialog') {
+        t = document.getElementById('privacy-dialog');
+        t.style.display = 'none';
+    } else if (id == 'privacy-dialog') {
+        t = document.getElementById('why-dialog');
+        t.style.display = 'none';
+    }
+    /* toggle selected div */
+    if(e.style.display == 'block')
+      e.style.display = 'none';
+    else
+      e.style.display = 'block';
+    }
+function sbs_close(id) {
+   var t = document.getElementById(id);
+   t.style.display = 'none';
+
+}
+/* ]]> */
+</script>
+
+      [[$sbsWhyDialogTpl]]
+      [[$sbsPrivacyDialogTpl]]
+<div id="sbs_subscribe">
+    <span id="sbs_subscribe_link"><a href="[[~[[++sbs_register_page_id]]]]">Become a subscriber!</a></span>
+    <span id="launch-why-dialog" onclick="sbs_toggle('why-dialog');"><a>Why Should I?</a></span>
+    <span id="launch-privacy-dialog" onclick="sbs_toggle('privacy-dialog');"><a>Privacy Policy</a></span>
+    <span id="sbs_login_link"><a href="[[~[[++sbs_login_page_id]]]]">Login</a></span>
+</div>

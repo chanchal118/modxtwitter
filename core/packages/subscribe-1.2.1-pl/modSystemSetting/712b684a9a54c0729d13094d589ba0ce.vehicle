@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3067e7d0d50b90a105bda5492b61e48e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '712b684a9a54c0729d13094d589ba0ce',
+  'native_key' => 'whyDialogTextTpl',
+  'object' => '{"key":"whyDialogTextTpl","value":"sbsWhyDialogTextTpl","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":13}',
+);

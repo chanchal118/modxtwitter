@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'bd4f74a0ed34d8ef48d8a9024ad636d5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'acc4966448b302f0e911e20386a81d0d',
+  'native_key' => 'sbs_user_roles',
+  'object' => '{"key":"sbs_user_roles","value":"","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":25}',
+);

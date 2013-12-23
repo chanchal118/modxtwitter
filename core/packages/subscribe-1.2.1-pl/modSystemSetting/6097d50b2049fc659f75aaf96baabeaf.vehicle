@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '10f622717d7a2418464916cf4726ff8c',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '6097d50b2049fc659f75aaf96baabeaf',
+  'native_key' => 'sbs_field_name',
+  'object' => '{"key":"sbs_field_name","value":"interests","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":28}',
+);

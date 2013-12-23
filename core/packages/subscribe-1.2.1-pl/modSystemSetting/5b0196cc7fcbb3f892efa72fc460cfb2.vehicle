@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '62b00eba7ae9d69806da4284f0775691',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '5b0196cc7fcbb3f892efa72fc460cfb2',
+  'native_key' => 'loggedInDisplayTpl',
+  'object' => '{"key":"loggedInDisplayTpl","value":"sbsLoggedInDisplayTpl","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":11}',
+);

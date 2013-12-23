@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0d13cf4d6169ce5be3605f680fd37b3c',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a57492360ca7e13459947a853cf487df',
+  'native_key' => 'loggedOutDisplayTpl',
+  'object' => '{"key":"loggedOutDisplayTpl","value":"sbsLoggedOutDisplayTpl","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":10}',
+);

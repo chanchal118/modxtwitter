@@ -1,0 +1,26 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 'pagetitle',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'ContentType' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8915148fd444cf275f155cedacbb52a3',
+  'package' => 'modx',
+  'class' => 'modResource',
+  'signature' => '892022c02e0327815c188a0ca9d9dabe',
+  'native_key' => 4,
+  'object' => '{"id":4,"type":"document","contentType":"text\\/html","pagetitle":"Thank You for Registering","longtitle":"","description":"","alias":"thanks-for-registering","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":0,"introtext":"","content":"<p>\\r\\n    Thanks for registering at [[++site_name]]. You will receive an email message soon\\r\\n    containing a link that will activate your subscription. Please\\r\\n    click on the link in the message to become an active subscriber.\\r\\n    <\\/p>","richtext":0,"template":0,"menuindex":2,"searchable":1,"cacheable":1,"createdby":1,"createdon":0,"editedby":1,"editedon":0,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":1,"uri":null,"uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":""}',
+);

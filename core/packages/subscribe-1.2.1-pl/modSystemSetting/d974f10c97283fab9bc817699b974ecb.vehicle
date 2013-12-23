@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9e081ab6a194afe78630f166e803d18b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd974f10c97283fab9bc817699b974ecb',
+  'native_key' => 'sbs_confirm_register_page_id',
+  'object' => '{"key":"sbs_confirm_register_page_id","value":"999","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":3}',
+);

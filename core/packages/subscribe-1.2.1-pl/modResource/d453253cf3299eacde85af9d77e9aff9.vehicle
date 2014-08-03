@@ -1,0 +1,26 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 'pagetitle',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'ContentType' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cebd485fc1fb1db4808f4e3dadb426a1',
+  'package' => 'modx',
+  'class' => 'modResource',
+  'signature' => 'd453253cf3299eacde85af9d77e9aff9',
+  'native_key' => 5,
+  'object' => '{"id":5,"type":"document","contentType":"text\\/html","pagetitle":"Registration Confirmed","longtitle":"","description":"","alias":"registration-confirmed","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":0,"introtext":"","content":"<p>Congratulations, you are now a subscriber!<\\/p>","richtext":0,"template":0,"menuindex":3,"searchable":1,"cacheable":1,"createdby":1,"createdon":0,"editedby":0,"editedon":0,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":1,"uri":null,"uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":""}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '71fb0a13bee3a584f767ba5366280b05',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd35b9994185e96f27590b4960c57c18e',
+  'native_key' => 'prefListTpl',
+  'object' => '{"key":"prefListTpl","value":"sbsPrefListTpl","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":7}',
+);

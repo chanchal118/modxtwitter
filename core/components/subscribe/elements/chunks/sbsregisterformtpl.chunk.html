@@ -1,0 +1,74 @@
+[[!SubscribeForm?
+    &form=`register`
+]]
+[[!Register?
+    &form=`register`
+    &submitVar=`login-register-btn`
+    &activationResourceId=`[[++sbs_confirm_register_page_id]]`
+    &submittedResourceId=`[[++sbs_thank_you_page_id]]`
+    &postHooks=`SubscribeForm`
+    &activationttl=`480`
+    &usergroups=`Subscribers:Subscriber`
+    &useExtended=`0`
+    &activationEmailTpl=`sbsActivationEmailTpl`
+    &activationEmailSubject=`Please activate your account at [[++site_name]]!`
+    &validate=`nospam:blank,
+         username:required:minLength=^6^,
+         password:required:minLength=^6^,
+         password_confirm:password_confirm=^password^,
+         email:required:email`
+]]
+
+<div class="register">
+    <div class="registerMessage">[[+error.message]]</div>
+
+    <form class="sbs_register_form" action="[[~[[*id]]]]" method="post" onsubmit="return checkform(this); return false;">
+        <fieldset>
+        <input type="hidden" name="nospam" value="[[!+reg.nospam]]" />
+        <label for="username">[[!%register.username? &namespace=`login` &topic=`register`]]:
+            
+        </label>
+        <input type="text" name="username" id="username" value="[[+username]]" /><span class="error">[[+error.username]]</span><br />
+
+        <label for="password">[[!%register.password]]:
+            
+        </label>
+        <input type="password" name="password" id="password" value="[[!+reg.password]]" /><span class="error">[[+error.password]]</span><br />
+
+        <label for="password_confirm">[[!%register.password_confirm]]:
+            
+        </label>
+        <input type="password" name="password_confirm" id="password_confirm" value="[[Q+reg.password_confirm]]" /><span class="error">[[+error.password_confirm]]</span><br />
+
+        <label for="fullname">[[!%register.fullname]]:
+            
+        </label>
+        <input type="text" name="fullname" id="fullname" value="[[!+reg.fullname]]" /><span class="error">[[+error.fullname]]</span><br />
+
+        <label for="email">[[!%register.email]]:
+            
+        </label>
+        <input type="text" name="email" id="email" value="[[!+reg.email]]" /><span class="error">[[+error.email]]</span><br />
+
+            <br class="clear"/>
+
+            [[+sbs_interests_caption]]
+            [[+sbs_interest_list]]
+
+            <br class="clear"/>
+
+            [[+sbs_groups_caption]]
+            [[+sbs_groups_list]]
+
+            <br class="clear"/>
+
+        [[+register.recaptcha_html]]
+        [[+error.recaptcha]]
+        <br />
+        <div class="form-buttons">
+            <input type="submit" name="login-register-btn" value="[[!%sbs_submit_button_text]]" />
+        </div>
+    </fieldset>
+    </form>
+    <span id="sbs_js_lexicon" style="display:none">[[+sbs_lexicon_json]]</span>
+</div>

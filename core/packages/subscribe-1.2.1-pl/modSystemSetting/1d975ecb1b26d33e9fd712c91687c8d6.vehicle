@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2585807a99d6c9819f5bcd689d0cfadb',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1d975ecb1b26d33e9fd712c91687c8d6',
+  'native_key' => 'sbs_show_interests',
+  'object' => '{"key":"sbs_show_interests","value":true,"xtype":"combo-boolean","namespace":"subscribe","area":"subscribe","editedon":null,"id":26}',
+);

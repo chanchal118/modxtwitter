@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ff83c37b90b93cdbc0c98546eaa03f62',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'af67e66f4983cf1408842ae3642e97d3',
+  'native_key' => 'checkboxTpl',
+  'object' => '{"key":"checkboxTpl","value":"sbsCheckboxTpl","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":9}',
+);

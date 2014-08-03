@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'bf69b641854ff114c8f04bbe118484ac',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f9e38ab2246aa8e30f55b99141bb1252',
+  'native_key' => 'sbs_secret_key',
+  'object' => '{"key":"sbs_secret_key","value":"","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":23}',
+);

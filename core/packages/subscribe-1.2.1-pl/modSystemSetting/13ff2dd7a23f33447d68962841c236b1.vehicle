@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '16cfa1ca1ed9dae5eba6156a75d9b75a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '13ff2dd7a23f33447d68962841c236b1',
+  'native_key' => 'sbsJsFile',
+  'object' => '{"key":"sbsJsFile","value":"subscribe.js","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":19}',
+);

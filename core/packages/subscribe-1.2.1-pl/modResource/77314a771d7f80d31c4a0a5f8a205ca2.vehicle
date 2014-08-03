@@ -1,0 +1,26 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 'pagetitle',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'ContentType' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '67ae4a98c35feb03c89d864efd4811ae',
+  'package' => 'modx',
+  'class' => 'modResource',
+  'signature' => '77314a771d7f80d31c4a0a5f8a205ca2',
+  'native_key' => 1,
+  'object' => '{"id":1,"type":"document","contentType":"text\\/html","pagetitle":"Subscribe Folder","longtitle":"","description":"","alias":"subscribe-folder","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":1,"introtext":"","content":"<p>This resource is not used by the Subscribe package. It exists only to organize the subscribe resources<\\/p>","richtext":0,"template":0,"menuindex":1,"searchable":1,"cacheable":1,"createdby":1,"createdon":0,"editedby":1,"editedon":0,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":1,"uri":null,"uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":""}',
+);

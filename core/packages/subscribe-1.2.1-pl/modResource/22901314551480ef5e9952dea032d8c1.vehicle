@@ -1,0 +1,26 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => false,
+  'unique_key' => 'pagetitle',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'ContentType' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4bd82200e659c6a04127c0bbbebc5597',
+  'package' => 'modx',
+  'class' => 'modResource',
+  'signature' => '22901314551480ef5e9952dea032d8c1',
+  'native_key' => 6,
+  'object' => '{"id":6,"type":"document","contentType":"text\\/html","pagetitle":"ConfirmRegister","longtitle":"","description":"","alias":"confirm-register","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":0,"introtext":"","content":"\\r\\n    [[!ConfirmRegister?\\r\\n        &redirectTo=`[[++sbs_registration_confirmed_page_id]]`\\r\\n        &errorPage=`[[++site_start]]`\\r\\n    ]]","richtext":0,"template":0,"menuindex":4,"searchable":1,"cacheable":1,"createdby":1,"createdon":0,"editedby":1,"editedon":0,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":1,"uri":null,"uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":""}',
+);

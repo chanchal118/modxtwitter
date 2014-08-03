@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '48e02bd234e4349429f4844231760bd5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '5926b132dc823717648bc535c9472b61',
+  'native_key' => 'sbs_unsubscribe_page_id',
+  'object' => '{"key":"sbs_unsubscribe_page_id","value":"999","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":24}',
+);

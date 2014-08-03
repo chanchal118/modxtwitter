@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'aa8791285359922405316fe96798094f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'fb3336744f24e10619b0d1a54bf09cbf',
+  'native_key' => 'sbs_thank_you_page_id',
+  'object' => '{"key":"sbs_thank_you_page_id","value":"999","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":6}',
+);

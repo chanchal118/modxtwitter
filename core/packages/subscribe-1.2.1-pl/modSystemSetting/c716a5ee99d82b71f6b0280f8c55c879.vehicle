@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'subscribe',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9bf99ab50ec123b6d980375d8fc49fb8',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c716a5ee99d82b71f6b0280f8c55c879',
+  'native_key' => 'sbsCssFile',
+  'object' => '{"key":"sbsCssFile","value":"subscribe.css","xtype":"textfield","namespace":"subscribe","area":"subscribe","editedon":null,"id":17}',
+);
